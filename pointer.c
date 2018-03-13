@@ -15,5 +15,6 @@ void main() {
 		if (i % 10 == 0)
 			ptr = (int*)realloc(ptr, sizeof(int) *(i + 10));
 		i++;
+		
 	}
 }
