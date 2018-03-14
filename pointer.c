@@ -8,6 +8,7 @@ void main() {
 	printf("숫자를 저장해봅시다\n");
 	printf("숫자 입력\n");
 	while (1) {
+
 		scanf("%d", ptr+i-1);
 		for (temp = 0; temp < i; temp++)
 			printf("%d ", *(ptr + temp));
